@@ -1,4 +1,4 @@
-# 🏠 Real Estate Escrow System
+#  Real Estate Escrow System
 
 > **Decentralized escrow platform for secure property transactions on EVM-compatible blockchains**
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📑 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Key Features](#-key-features)
@@ -33,14 +33,14 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 Real Estate Escrow System is a **trustless, decentralized escrow platform** designed for secure transactions of **any type of movable and immovable property**:
 
-- 🏠 Real estate (apartments, houses, land)
-- 🚗 Vehicles (cars, motorcycles, boats)
-- 🎨 High-value assets (art, collectibles)
-- 📄 Any property requiring secure third-party verification
+-  Real estate (apartments, houses, land)
+-  Vehicles (cars, motorcycles, boats)
+-  High-value assets (art, collectibles)
+-  Any property requiring secure third-party verification
 
 The platform eliminates the need for traditional intermediaries by leveraging smart contracts to hold funds securely until all parties fulfill their obligations. A licensed notary verifies the transaction off-chain and triggers the on-chain settlement.
 
@@ -56,20 +56,20 @@ The platform eliminates the need for traditional intermediaries by leveraging sm
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- **🔐 Trustless Escrow** — Funds are locked in smart contracts, not controlled by any single party
-- **👥 Multi-Party Support** — Buyer, Seller, Notary, and optional Agent roles
-- **💸 Flexible Fee System** — Configurable agent and notary fees (0-20%)
-- **⏰ Deadline Protection** — Automatic refund capability after deadline expiration
-- **📄 IPFS Integration** — Property documents stored on decentralized storage
-- **🌐 Multi-Chain Ready** — Deployable on any EVM-compatible blockchain
-- **🎨 Modern UI** — React-based interface with dark/light theme support
-- **🔍 Full Transparency** — All transactions verifiable on-chain
+- ** Trustless Escrow** — Funds are locked in smart contracts, not controlled by any single party
+- ** Multi-Party Support** — Buyer, Seller, Notary, and optional Agent roles
+- ** Flexible Fee System** — Configurable agent and notary fees (0-20%)
+- ** Deadline Protection** — Automatic refund capability after deadline expiration
+- ** IPFS Integration** — Property documents stored on decentralized storage
+- ** Multi-Chain Ready** — Deployable on any EVM-compatible blockchain
+- ** Modern UI** — React-based interface with dark/light theme support
+- ** Full Transparency** — All transactions verifiable on-chain
 
 ---
 
-## 🔄 How It Works
+##  How It Works
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
@@ -99,7 +99,7 @@ The platform eliminates the need for traditional intermediaries by leveraging sm
 
 ---
 
-## 💰 Fee Structure
+##  Fee Structure
 
 The system supports a flexible, transparent fee structure:
 
@@ -130,9 +130,9 @@ On Approval:
 
 ---
 
-## 👥 Participant Flows
+##  Participant Flows
 
-### 🛒 Buyer Flow
+### Buyer Flow
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -168,7 +168,7 @@ On Approval:
 
 ---
 
-### 💼 Seller Flow
+### Seller Flow
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -206,7 +206,7 @@ On Approval:
 
 ---
 
-### ⚖️ Notary Flow
+### Notary Flow
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -250,7 +250,7 @@ On Approval:
 
 ---
 
-### 🤝 Agent Flow
+### Agent Flow
 
 ```
 ┌────────────────────────────────────────────────────────────┐
@@ -317,7 +317,7 @@ On Approval:
 
 ---
 
-## 📐 Smart Contract Architecture
+##  Smart Contract Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -379,7 +379,7 @@ On Approval:
 
 ---
 
-## 🔒 Security Audit
+##  Security Audit
 
 ### Slither Static Analysis
 
@@ -389,10 +389,10 @@ All contracts have been analyzed using [Slither](https://github.com/crytic/slith
 
 | Severity | Count | Status |
 |----------|-------|--------|
-| 🔴 High | 0 | ✅ None found |
-| 🟠 Medium | 0 | ✅ None found |
-| 🟡 Low | 2 | ✅ Acceptable (by design) |
-| 🔵 Informational | 5 | ✅ Reviewed |
+| 🔴 High | 0 |  None found |
+| 🟠 Medium | 0 |  None found |
+| 🟡 Low | 2 |  Acceptable (by design) |
+| 🔵 Informational | 5 |  Reviewed |
 
 #### Detailed Findings
 
@@ -420,16 +420,16 @@ All contracts have been analyzed using [Slither](https://github.com/crytic/slith
 
 ### Security Features
 
-- ✅ **ReentrancyGuard** on all external functions with transfers
-- ✅ **CEI Pattern** (Checks-Effects-Interactions) throughout
-- ✅ **Access Control** with role-based permissions
-- ✅ **SafeERC20** patterns for future token support
-- ✅ **Immutable fee parameters** after contract initialization
-- ✅ **Maximum fee cap** (20%) to prevent abuse
+-  **ReentrancyGuard** on all external functions with transfers
+-  **CEI Pattern** (Checks-Effects-Interactions) throughout
+-  **Access Control** with role-based permissions
+-  **SafeERC20** patterns for future token support
+-  **Immutable fee parameters** after contract initialization
+-  **Maximum fee cap** (20%) to prevent abuse
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Current Testnet Deployment (Sepolia)
 
@@ -446,7 +446,7 @@ All contracts are verified and source code is publicly available on [Sepolia Eth
 
 ---
 
-## 💻 Local Development
+## Local Development
 
 ### Prerequisites
 
@@ -499,9 +499,9 @@ npm start
 
 ---
 
-## 🧪 Testing Program
+##  Testing Program
 
-### 🎉 We're Looking for Testers!
+###  We're Looking for Testers!
 
 This is an **MVP (Minimum Viable Product)** deployed on Sepolia testnet. We're actively seeking testers to help improve the platform.
 
@@ -509,9 +509,9 @@ This is an **MVP (Minimum Viable Product)** deployed on Sepolia testnet. We're a
 
 | Benefit | Details |
 |---------|---------|
-| 🚰 **Private Sepolia Faucet** | 0.5 ETH per day for testing |
-| 📝 **Direct Developer Access** | Feedback goes straight to the developer |
-| 🏆 **Recognition** | Active testers credited in project |
+|  **Private Sepolia Faucet** | 0.5 ETH per day for testing |
+|  **Direct Developer Access** | Feedback goes straight to the developer |
+|  **Recognition** | Active testers credited in project |
 
 ### How to Participate
 
@@ -522,17 +522,17 @@ This is an **MVP (Minimum Viable Product)** deployed on Sepolia testnet. We're a
 
 ### What We're Looking For
 
-- 🐛 Bug reports with reproduction steps
-- 💡 UX/UI improvement suggestions
-- 🔐 Security concerns or edge cases
-- 📱 Mobile responsiveness issues
-- ⚡ Performance observations
+-  Bug reports with reproduction steps
+-  UX/UI improvement suggestions
+-  Security concerns or edge cases
+-  Mobile responsiveness issues
+-  Performance observations
 
 ---
 
 ## 🗺 Roadmap
 
-### Phase 1: MVP ✅
+### Phase 1: MVP 
 - [x] Core smart contracts
 - [x] Factory pattern deployment
 - [x] Fee system (agent + notary)
@@ -562,14 +562,14 @@ This is an **MVP (Minimum Viable Product)** deployed on Sepolia testnet. We're a
 
 ---
 
-## 📞 Contact
+##  Contact
 
 ### Developer
 
 **Slavcho Ivanov**
 
-- 🌐 Website: [me.slavy.space](https://me.slavy.space)
-- 📧 Contact: Use the contact form on my website
+-  Website: [me.slavy.space](https://me.slavy.space)
+-  Contact: Use the contact form on my website
 
 ### Feedback & Support
 
@@ -577,7 +577,7 @@ For bug reports, feature requests, or testing program inquiries, please use the 
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
@@ -585,7 +585,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built with ❤️ for the decentralized future**
+**Built for the decentralized future**
 
 ⭐ Star this repo if you find it useful!
 
