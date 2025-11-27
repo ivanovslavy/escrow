@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0-struct",
+  "network": "sepolia",
+  "chainId": "11155111",
+  "deployer": "0x8eB8Bf106EbC9834a2586D04F73866C7436Ce298",
+  "timestamp": "2025-11-26T20:02:03.073Z",
+  "totalCost": "0.017108533198690412 ETH",
+  "template": {
+    "address": "0x77Bc9Ca347816AD48bD993C8c94A574524C2B2A9",
+    "tx": "0x23b67fbf5f63dc5b0fedd5e0ddecaaa7f3b8b1550f43fb4135d914decc1775a9",
+    "explorer": "https://sepolia.etherscan.io/address/0x77Bc9Ca347816AD48bD993C8c94A574524C2B2A9",
+    "verified": false
+  },
+  "factory": {
+    "address": "0x4D8eecE1106c7c6e00bAe99C48b6C18790107efc",
+    "owner": "0x8eB8Bf106EbC9834a2586D04F73866C7436Ce298",
+    "template": "0x77Bc9Ca347816AD48bD993C8c94A574524C2B2A9",
+    "deployFee": "0.0 ETH",
+    "tx": "0x0d3f07f7b17280e369d8eba1bc4a381c5a771d943042f0acc164356c2f02e3c0",
+    "explorer": "https://sepolia.etherscan.io/address/0x4D8eecE1106c7c6e00bAe99C48b6C18790107efc",
+    "verified": false
+  },
+  "verification": {
+    "template": {
+      "address": "0x77Bc9Ca347816AD48bD993C8c94A574524C2B2A9",
+      "args": []
+    },
+    "factory": {
+      "address": "0x4D8eecE1106c7c6e00bAe99C48b6C18790107efc",
+      "args": [
+        "0x8eB8Bf106EbC9834a2586D04F73866C7436Ce298",
+        "0x77Bc9Ca347816AD48bD993C8c94A574524C2B2A9",
+        "0"
+      ]
+    }
+  }
+}
